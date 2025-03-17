@@ -17,3 +17,14 @@ pip install git+https://github.com/openai/CLIP.git
 Download FairFace Dataset: (train and val images (margin 0.25) + labels)
 
 https://github.com/joojs/fairface?tab=readme-ov-file
+
+Folder hierarchy for the data:
+
+├── datasets/
+│   └── fairface/
+│       ├── train/
+│       │   └── images/
+│       ├── fairface_label_train.csv
+│       ├── val/
+│       │   └── images/
+│       └── fairface_label_val.csv
