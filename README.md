@@ -20,6 +20,7 @@ https://github.com/joojs/fairface?tab=readme-ov-file
 
 Folder hierarchy for the data:
 
+```
 ├── datasets/
 │   └── fairface/
 │       ├── train/
@@ -28,3 +29,4 @@ Folder hierarchy for the data:
 │       ├── val/
 │       │   └── images/
 │       └── fairface_label_val.csv
+```
