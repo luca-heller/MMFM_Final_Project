@@ -21,7 +21,7 @@ def main():
     # print("Top-K indices:", topk_indices)
 
     # Batch inference
-    dataset = FairFaceDataset(image_dir="datasets/fairface/train/images", transform=preprocess)
+    dataset = FairFaceDataset(image_dir="datasets/fairface/train/images", label_csv="datasets/fairface/train/fairface_label_train.csv", transform=preprocess)
     dataloader = DataLoader(dataset, batch_size=16, shuffle=False)
 
     # Iterate over a batch of images

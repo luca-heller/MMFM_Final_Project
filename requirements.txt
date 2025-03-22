@@ -1,3 +1,5 @@
 torch==2.6.0
 torchvision
 tqdm
+pandas
+
